@@ -1,0 +1,29 @@
+{
+    "name": "PDF",
+    "version": "1.0",
+    "type": "example",
+    "description": "Componente para exportar a pdf",
+    "keywords": [
+        "example",
+        "testing"
+    ],
+    "homepage": "http://gestion-atit-guayana.corpoelec.com.ve",
+    "time": "2015-03-25",
+    "license": "CopyLeft",
+    "authors": [
+        {
+            "name": "Adalberto Adrian",
+            "homepage": "http://gestion-atit-guayana.corpoelec.com.ve"
+        }
+    ],
+    "require": {
+        "php": " >= 5.4",
+	"dompdf/dompdf": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Monolog\\": "src/",
+            "Vendor\\Namespace\\": ""
+        }
+    }
+}
